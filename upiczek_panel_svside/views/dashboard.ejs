@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <button id="screenshotbutton">Zrób Screenshota Graczowi</button>
+  </body>
+  <script>
+    const btn = document.getElementById("screenshotbutton");
+    btn.addEventListener("click", async () => {
+      const { value: id } = await Swal.fire({
+        title: "Podaj ID Gracza",
+        input: "text",
+        inputLabel: "ID Gracza",
+        inputPlaceholder: "ID",
+      });
+      if (id) {
+        const screenshot = await fetch(`/screenshot/${id}`);
+        const data = await screenshot.json();
+        Swal.fire({
+          imageUrl: data.url,
+          text: `Screenshot Gracza: ${data.name}`,
+          width: "70%",
+        });
+      }
+    });
+  </script>
+</html>
