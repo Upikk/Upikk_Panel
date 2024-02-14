@@ -6,5 +6,6 @@ Strona w Express ze skryptem Fivem, umożliwia robienie screenshotów graczom pr
 <b>upiczek_panel_fivemside</b>
 1. Wrzucasz skrypt upiczek_panel_fivemside na Serwer.
 2. Jeśli nie posiadasz yarna, zainstaluj moduły.
-3. Dodajesz do cfg ensure upiczek_panel_fivemside
+3. Dodajesz do cfg ensure upiczek_panel_fivemside.
+
 <b>upiczek_panel_fivemside</b>
