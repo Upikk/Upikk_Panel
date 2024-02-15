@@ -16,4 +16,5 @@ Strona w Express ze skryptem Fivem, umożliwia robienie screenshotów graczom pr
 3. Wchodzisz na http://localhost:7777/
 
 
+<b>⚠ Musisz mieć skrypt screenshot-basic ⚠</b>
 <b>NAJPIERW MUSISZ URUCHOMIĆ upiczek_panel_svside</b>
