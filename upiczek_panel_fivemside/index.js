@@ -4,7 +4,6 @@ const config = require(`${GetResourcePath(
   GetCurrentResourceName()
 )}/config.json`);
 
-console.log(config);
 socket.on("connect", () => {
   console.log("Połączono do WebSocketa");
 });
