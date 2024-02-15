@@ -18,5 +18,5 @@ function ClientScreenshot(_src, cbbb) {
   onNet("ScreenshotEvent", (urlik) => {
     cbbb(urlik);
   });
-  emitNet("clientScreenshot", _src, webhook);
+  emitNet("clientScreenshot", _src, config.webhook);
 }
