@@ -1,5 +1,6 @@
 # Upikk_Panel
 <b>jak potrzebujesz pomocy to discord: discord.gg/upik</b>
+
 Strona w Express ze skryptem Fivem, umożliwia robienie screenshotów graczom przy użyciu WebSocketa.
 
 # Konfiguracja
