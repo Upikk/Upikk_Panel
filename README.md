@@ -1,7 +1,7 @@
 # Upikk_Panel
 <b>jak potrzebujesz pomocy to discord: discord.gg/upik</b>
 
-Strona w Express ze skryptem Fivem, umożliwia robienie screenshotów graczom przy użyciu WebSocketa.
+Strona w node js z express i skrypt Fivem, umożliwia robienie screenshotów graczom przy użyciu WebSocketa.
 
 # Konfiguracja
 <b>upiczek_panel_fivemside</b>
